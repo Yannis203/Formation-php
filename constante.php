@@ -17,5 +17,8 @@ echo "Exemple avec une variable et une constante <br>";
 $config_pseudo_admin = "yannis";
 define ("PSEUDO_ADMIN",$config_pseudo_admin);
 echo PSEUDO_ADMIN;
+// Différence entre const et define()
+// - const est une déclaration de constante qui peut être utilisée à l'intérieur des classes et des espaces de noms.
+// - define() est une fonction qui peut être utilisée partout dans le code.
 
 ?>
